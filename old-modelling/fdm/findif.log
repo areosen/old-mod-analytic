@@ -1,0 +1,6 @@
+ Set up the structure of the model
+ Output time source file : ./gau.d
+ Put a gaussian wavelet on the data
+ Begin loop over time
+ Output press.-data file : ~/moddata/pres1_test.d
+ Output press.-data file : ~/moddata/pres2_test.d

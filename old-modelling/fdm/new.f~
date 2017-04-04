@@ -1,0 +1,25 @@
+
+
+       PROGRAM TODIMBOLGE
+
+       IMPLICIT NONE
+
+       
+       INTEGER CDIM,PDIMX,PDIMZ,PDIMT
+       PARAMETER(CDIM=1001,PDIMX=512,PDIMZ=512,PDIMT=600)
+
+       INTEGER K,KMAX,L,MAXL,I,IMAX,J,MAXJ,M,MMAX,N,MAXN
+       INTEGER DELTAD,KILDEIX,KILDEPX,KILDEIZ,KILDEPZ
+       INTEGER VANND,LEIRED,SANDD
+       INTEGER VANNH,LEIREH,SANDH
+       REAL    C(CDIM),DELTAT
+       REAL    P(PDIMX,PDIMZ,PDIMT)
+       REAL    S,DAMS,DIRAC,Q,Z
+
+       do i=1,512
+          do j=1,512
+             print *,p(i,j,1)
+          enddo
+       enddo
+
+       END
